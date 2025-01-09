@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    padding: 2px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black; /* Main banner color */
+}
+.header-left{
+    display: flex;
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    cursor: pointer;
+}
+.header-icon{
+    color: var(--primary-color);
+    padding-top: 4px;
+}
+.header-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: dodgerblue; /* Main title color */
+}
+:root{
+    --primary-color: #caeda1; /* Icon Color */
+}
